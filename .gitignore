@@ -53,27 +53,27 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
+# Django
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy
 .scrapy
 
-# Sphinx documentation
+# Sphinx
 docs/_build/
 
 # PyBuilder
 .pybuilder/
 target/
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
 
 # IPython
@@ -83,23 +83,18 @@ ipython_config.py
 # pyenv
 .python-version
 
-# pipenv
+# Pipenv
 #Pipfile.lock
-
-# UV
-#uv.lock
 
 # poetry
 #poetry.lock
 #poetry.toml
 
 # pdm
-#pdm.lock
-#pdm.toml
 .pdm-python
 .pdm-build/
 
-# pixi
+# Pixi
 .pixi
 
 # PEP 582
@@ -112,7 +107,7 @@ celerybeat.pid
 # SageMath
 *.sage.py
 
-# Environments
+# Ambienti virtuali
 .env
 .envrc
 .venv
@@ -152,7 +147,7 @@ cython_debug/
 # Abstra
 .abstra/
 
-# Visual Studio Code
+# VS Code
 .vscode/
 
 # Ruff
@@ -176,10 +171,11 @@ __marimo__/
 # Operai specializzati (landing, telegram, ecc.)
 operai_*.py
 
-# Landing versioning & debug
+# Output dell’operaio landing (non vanno su Git)
 index_versions/
 index_latest/
 debug/
 
-# Variabili per operai
-variabili_*/
+# Prompt e contenuti dinamici
+assets/*.txt
+prompt.txt

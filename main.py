@@ -13,6 +13,7 @@ def terminale_virtuale():
 
 if __name__ == "__main__":
     if "REPLIT" in os.environ or "TERMUX_VERSION" in os.environ:
-        os.system("/bin/bash")
+        shell = os.environ.get("SHELL", "sh")
+        os.system(shell)
     else:
         terminale_virtuale()

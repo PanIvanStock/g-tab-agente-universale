@@ -168,13 +168,18 @@ __marimo__/
 # Backup ZIP
 *.zip
 
-# Operai specializzati (landing, telegram, ecc.)
+# Operai specializzati da ignorare (escludendo quelli che servono)
+# ⚠️ IGNORA solo gli operai NON landing
+# puoi eventualmente aggiungere altri nomi da ignorare qui sotto
+# es. operai_telegram.py, operai_test.py ecc.
+# ! = eccezione → NON ignorare il file sotto
 operai_*.py
+!operai_landing.py
 
 # Output dell’operaio landing (non vanno su Git)
 index_versions/
 debug/
 
-# Prompt e contenuti dinamici
+# Prompt e contenuti dinamici (testi, input temporanei)
 assets/*.txt
 prompt.txt

@@ -173,7 +173,6 @@ operai_*.py
 
 # Output dell’operaio landing (non vanno su Git)
 index_versions/
-index_latest/
 debug/
 
 # Prompt e contenuti dinamici

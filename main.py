@@ -12,8 +12,5 @@ def terminale_virtuale():
             print(f"Errore: {e}")
 
 if __name__ == "__main__":
-    if "REPLIT" in os.environ or "TERMUX_VERSION" in os.environ:
-        shell = os.environ.get("SHELL", "sh")
-        os.system(shell)
-    else:
-        terminale_virtuale()
+    # Disabilitato l'accesso alla shell nativa per sicurezza
+    terminale_virtuale()

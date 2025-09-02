@@ -182,4 +182,4 @@ debug/
 
 # Prompt e contenuti dinamici (testi, input temporanei)
 assets/*.txt
-prompt.txt
+!assets/prompt-landing.txt

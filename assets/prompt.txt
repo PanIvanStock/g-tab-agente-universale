@@ -10,7 +10,12 @@ Crea una landing page HTML responsive, con stile professionale ma minimale, adat
    Officina Digitale Abruzzo
 
 4. Il **sottotitolo** (sotto il titolo) deve essere:
-   by Ivan Panaccio
+   by Ivan Panaccio  
+   servizi e soluzioni digitali e informatiche per PMI, professionisti e commercianti
+
+   - Il titolo principale deve essere il più grande (h1 o simile), in grassetto.
+   - Il sottotitolo `by Ivan Panaccio` deve essere leggermente più piccolo (es. h2), in grassetto.
+   - La descrizione `servizi e soluzioni...` deve essere ancora più piccola (es. h3 o paragrafo), **non** in grassetto.
 
 5. Inserisci due pulsanti ben visibili (call to action):
    - 🔗 WhatsApp Business → https://link.whatsapp.com/ivanpanaccio-business
@@ -23,5 +28,3 @@ Crea una landing page HTML responsive, con stile professionale ma minimale, adat
 8. Comunica su Termux, con un log finale chiaro, che il prompt è stato ricevuto correttamente, che il file è stato generato, e che si trova nella cartella `index/`.
 
 9. **NON eseguire automaticamente il push su GitHub**: questo verrà deciso manualmente di volta in volta.
-# Ritocco Jeff
-# Ritocco Jeff

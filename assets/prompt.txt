@@ -1,0 +1,27 @@
+Crea una landing page HTML responsive, con stile professionale ma minimale, adatta a essere visualizzata da mobile. Non deve contenere alcuna descrizione di servizi né frasi su obiettivi o presentazioni personali. Deve avere un impatto visivo forte, ma semplice.
+
+**ELEMENTI FONDAMENTALI:**
+
+1. Il layout deve avere come sfondo un colore ispirato ai toni del banner (già presente nella cartella `assets/`), ma molto più sfumato, con decorazioni visive trasparenti tipo codici, strumenti digitali, icone tech leggere. Evita un effetto pesante: lo sfondo deve accompagnare, non dominare.
+
+2. Il banner con immagine profilo è già presente e **non va generato**: non inserire placeholder. Il banner include anche la mia immagine personale ed è stato già caricato nella cartella `assets/`. Non usare placeholder per la foto profilo o immagine principale.
+
+3. Il **titolo principale** della pagina deve essere:
+   Officina Digitale Abruzzo
+
+4. Il **sottotitolo** (sotto il titolo) deve essere:
+   by Ivan Panaccio
+
+5. Inserisci due pulsanti ben visibili (call to action):
+   - 🔗 WhatsApp Business → https://link.whatsapp.com/ivanpanaccio-business
+   - 🔗 Pagina Facebook Business → https://facebook.com/OfficinaDigitaleAbruzzo
+
+6. La pagina generata deve essere salvata come `index.html` dentro una cartella `index/`.
+
+7. Assicurati che la cartella `index/` esista. Se non esiste, creala prima di salvare il file `index.html`.
+
+8. Comunica su Termux, con un log finale chiaro, che il prompt è stato ricevuto correttamente, che il file è stato generato, e che si trova nella cartella `index/`.
+
+9. **NON eseguire automaticamente il push su GitHub**: questo verrà deciso manualmente di volta in volta.
+# Ritocco Jeff
+# Ritocco Jeff

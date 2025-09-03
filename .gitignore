@@ -18,9 +18,12 @@ Thumbs.db
 *.tmp
 *.old
 
-# Cartelle e contenuti di output
-output/
-index_versions/
+# Cartelle e contenuti di output da ignorare,
+# ma con eccezioni specifiche per il file index.html
+index_versions/*
+!index_versions/index_latest/
+!index_versions/index_latest/index.html
+
 debug/
 
 # Contenuti generati, da ignorare tranne alcune eccezioni

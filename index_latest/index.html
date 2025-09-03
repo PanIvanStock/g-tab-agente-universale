@@ -1,151 +1,83 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- ✅ SEO BASE -->
-  <title>Officina Digitale Abruzzo – Automazioni, AI e Consulenze Locali</title>
-  <meta name="description" content="Servizi e soluzioni digitali e informatiche per PMI, professionisti e commercianti. Opero nelle province di Chieti e Pescara.">
-  <meta name="keywords" content="Consulente digitale Abruzzo, AI Chieti, automazioni Pescara, Telegram Make CRM, Ivan Panaccio, PMI digitalizzazione Abruzzo, consulente AI Chieti, automazioni locali">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Officina Digitale Abruzzo - Soluzioni digitali, automazioni, intelligenza artificiale e consulenze per PMI, artigiani e professionisti.">
+  <meta name="keywords" content="Officina Digitale, Abruzzo, automazioni, AI, consulenza digitale, PMI, artigiani, Termux, Replit, Cloudflare, CRM, Telegram, make.com, Ivan Panaccio">
   <meta name="author" content="Ivan Panaccio">
-  <meta name="robots" content="index, follow">
-
-  <!-- ✅ GEOLOCALIZZAZIONE -->
-  <meta name="geo.region" content="IT-CH" />
-  <meta name="geo.placename" content="Chieti, Pescara" />
-  <meta name="geo.position" content="42.3512;14.1675" />
-  <meta name="ICBM" content="42.3512, 14.1675" />
-
-  <!-- ✅ OPEN GRAPH SOCIAL -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Officina Digitale Abruzzo – Ivan Panaccio">
-  <meta property="og:description" content="Servizi e soluzioni digitali e informatiche per PMI, professionisti e commercianti. Opero nelle province di Chieti e Pescara.">
-  <meta property="og:url" content="https://officinadigitaleabruzzo.duckdns.org">
-  <meta property="og:image" content="https://officinadigitaleabruzzo.duckdns.org/banner_Ivan_Landing.png">
-  <meta property="og:locale" content="it_IT">
-
-  <!-- ✅ STILE VISIVO -->
+  <meta property="og:title" content="Officina Digitale Abruzzo">
+  <meta property="og:description" content="Il tuo alleato per automazioni, AI e consulenze digitali su misura.">
+  <meta property="og:image" content="assets/banner.jpg">
+  <meta property="og:url" content="https://officinadigitaleabruzzo.pages.dev">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Officina Digitale Abruzzo</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      color: #ffffff;
-      background: linear-gradient(135deg, #2e2e2e 0%, #1e3c3d 100%);
-      background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-      background-size: cover;
-      background-blend-mode: overlay;
-      background-repeat: repeat;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #2e2e2e, #1e1e1e);
+      color: #fff;
+      text-align: center;
     }
-
-    .banner {
+    header {
+      position: relative;
       width: 100%;
       max-height: 300px;
-      object-fit: cover;
+      overflow: hidden;
+    }
+    header img {
+      width: 100%;
+      height: auto;
       display: block;
     }
-
-    .content {
-      padding: 6em 2em 4em 2em; /* ⬅️ Aumentato il padding TOP */
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0.6);
-      margin: 1em;
-      border-radius: 12px;
-    }
-
-    h1, h2, p {
-      color: #ffffff;
-      text-shadow: 1px 1px 3px #000000;
-    }
-
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.3em;
+      margin-top: 1.2rem;
+      font-size: 2.2em;
+      line-height: 1.4;
+      letter-spacing: 0.02em;
+      text-shadow: 2px 2px 4px #000;
     }
-
-    h2 {
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-bottom: 1em;
+    .cta-buttons {
+      margin-top: 2rem;
     }
-
-    p {
-      font-size: 1.2em;
-      margin-bottom: 2em;
-      line-height: 1.5em;
-    }
-
-    a.button {
+    .cta-buttons a {
       display: inline-block;
-      margin: 0.5em;
-      padding: 0.8em 1.5em;
-      background-color: #00b386;
-      color: white;
-      font-weight: bold;
-      border: none;
-      border-radius: 8px;
+      margin: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #00a884;
+      color: #fff;
       text-decoration: none;
-      transition: background-color 0.3s ease;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
     }
-
-    a.button:hover {
-      background-color: #009973;
+    .cta-buttons a:hover {
+      background-color: #007e63;
     }
-
-    .code-bg {
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      opacity: 0.05;
-      background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
-    }
-
-    .content-container {
-      position: relative;
-      z-index: 1;
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      .cta-buttons a {
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="code-bg"></div>
-  <img src="banner_Ivan_Landing.png" alt="Banner Ivan" class="banner">
-  <div class="content-container">
-    <div class="content">
-      <h1>Officina Digitale Abruzzo</h1>
-      <h2>di Ivan Panaccio</h2>
-      <p>
-        Servizi e soluzioni digitali e informatiche per PMI, professionisti e commercianti.<br>
-        Opero nelle province di Chieti e Pescara.
-      </p>
-      <a href="https://wa.me/393341828473" class="button" target="_blank">🔗 WhatsApp Business</a>
-      <a href="https://facebook.com/OfficinaDigitaleAbruzzo" class="button" target="_blank">🔗 Pagina Facebook</a>
-    </div>
+
+  <header>
+    <img src="assets/banner.jpg" alt="Banner Officina Digitale Abruzzo" />
+  </header>
+
+  <h1>Officina Digitale Abruzzo</h1>
+
+  <div class="cta-buttons">
+    <a href="https://wa.me/393341828473" target="_blank">Contattami su WhatsApp</a>
+    <a href="https://facebook.com/OfficinaDigitaleAbruzzo" target="_blank">Pagina Facebook</a>
   </div>
 
-  <!-- ✅ DATI STRUTTURATI (SCHEMA.ORG) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ivan Panaccio",
-    "jobTitle": "Consulente Digitale",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Officina Digitale Abruzzo"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Chieti",
-      "addressRegion": "Abruzzo",
-      "addressCountry": "IT"
-    },
-    "url": "https://officinadigitaleabruzzo.duckdns.org"
-  }
-  </script>
 </body>
 </html>

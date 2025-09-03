@@ -1,5 +1,9 @@
 import os
 import sys
+from dotenv import load_dotenv
+
+# ✅ Carica le variabili da .env_local
+load_dotenv(".env_local")
 
 # ✅ Legge da argomento oppure fallback
 prompt_file = sys.argv[1] if len(sys.argv) > 1 else "assets/prompt.txt"

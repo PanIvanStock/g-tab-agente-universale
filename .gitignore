@@ -27,10 +27,11 @@ index_versions/*
 debug/
 
 # Contenuti generati, da ignorare tranne alcune eccezioni
-assets/*.txt
+assets/*
 !assets/prompt.txt
 !assets/prompt-landing.txt
 !assets/contenuto-landing.txt
+!assets/*.png
 
 # File nascosti o di sistema editor
 *.sublime-project

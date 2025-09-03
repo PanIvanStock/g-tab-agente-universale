@@ -1,185 +1,40 @@
-# Byte-compiled / optimized / DLL files
+# Cartelle di sistema / ambienti virtuali / compilati
 __pycache__/
-*.py[codz]
-*$py.class
-
-# C extensions
+*.py[cod]
 *.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask
-instance/
-.webassets-cache
-
-# Scrapy
-.scrapy
-
-# Sphinx
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# Pipenv
-#Pipfile.lock
-
-# poetry
-#poetry.lock
-#poetry.toml
-
-# pdm
-.pdm-python
-.pdm-build/
-
-# Pixi
-.pixi
-
-# PEP 582
-__pypackages__/
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath
-*.sage.py
-
-# Ambienti virtuali
-.env
-.envrc
-.venv
-env/
 venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder
-.spyderproject
-.spyproject
-
-# Rope
-.ropeproject
-
-# mkdocs
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# pytype
-.pytype/
-
-# Cython
-cython_debug/
-
-# JetBrains / PyCharm
+env/
+.vscode/
 .idea/
 
-# Abstra
-.abstra/
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
 
-# VS Code
-.vscode/
+# Cache ed estensioni comuni
+*.log
+*.bak
+*.swp
+*.tmp
+*.old
 
-# Ruff
-.ruff_cache/
-
-# PyPI
-.pypirc
-
-# Cursor
-.cursorignore
-.cursorindexingignore
-
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
-
-# Backup ZIP
-*.zip
-
-# Operai specializzati da ignorare (escludendo quelli che servono)
-# ⚠️ IGNORA solo gli operai NON landing
-# puoi eventualmente aggiungere altri nomi da ignorare qui sotto
-# es. operai_telegram.py, operai_test.py ecc.
-# ! = eccezione → NON ignorare il file sotto
-operai_*.py
-!operai_landing.py
-
-# Output dell’operaio landing (non vanno su Git)
+# Cartelle e contenuti di output
+output/
 index_versions/
 debug/
 
-# Prompt e contenuti dinamici (testi, input temporanei)
+# Contenuti generati, da ignorare tranne alcune eccezioni
 assets/*.txt
+!assets/prompt.txt
 !assets/prompt-landing.txt
+!assets/contenuto-landing.txt
+
+# File nascosti o di sistema editor
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Replit
+.replit
+.replit.nix
+.nix/

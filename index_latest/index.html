@@ -44,10 +44,11 @@
       max-height: 300px;
       object-fit: cover;
       display: block;
+      margin-bottom: 2em; /* ✅ FIX definitivo: spinge giù tutto */
     }
 
     .content {
-      padding: 3em 2em 4em 2em; /* aumenta il padding per separare bene i bottoni dal testo */
+      padding: 3em 2em 4em 2em;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.6);
       margin: 1em;
@@ -108,7 +109,6 @@
     .content-container {
       position: relative;
       z-index: 1;
-      margin-top: 3em; /* ✅ risolve il problema F sopra la I */
     }
   </style>
 </head>
@@ -128,7 +128,7 @@
     </div>
   </div>
 
-  <!-- ✅ SCHEMA.ORG DATI STRUTTURATI -->
+  <!-- ✅ DATI STRUTTURATI (SCHEMA.ORG) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
